@@ -3,5 +3,5 @@ python: 2.7
 install: true
 script: foobar
 matrix:
-  allowed_failure:
+  allow_failures:
     - python: 2.8
