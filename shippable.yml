@@ -1,0 +1,7 @@
+language: python
+python: 2.8
+install: true
+script: false
+matrix:
+  allowed_failure:
+    - python: 2.8
